@@ -1,0 +1,38 @@
+<meta name="fe019da637d10c142acb7052c1189f51fcb66a09" content="fe019da637d10c142acb7052c1189f51fcb66a09" />
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mavi Buton Örneği</title>
+<style>
+    /* Butonun stilini belirleyen CSS kodları */
+    .mavi-buton {
+        background-color: #007BFF; /* Canlı bir mavi renk */
+        color: white;              /* Yazı rengi beyaz */
+        padding: 12px 25px;        /* Butonun iç boşlukları (büyüklüğü) */
+        text-align: center;        /* Yazıyı ortala */
+        text-decoration: none;     /* Yazının altındaki çizgiyi kaldır */
+        display: inline-block;     /* Butonun diğer elementlerle uyumlu olmasını sağlar */
+        font-size: 16px;           /* Yazı boyutu */
+        font-family: sans-serif;   /* Okunaklı bir yazı tipi */
+        font-weight: bold;         /* Yazı kalın olsun */
+        border-radius: 8px;        /* Kenarları yuvarlak yap */
+        border: none;              /* Kenarlık olmasın */
+        cursor: pointer;           /* Üzerine gelince el işareti çıksın */
+        transition: background-color 0.3s; /* Renk değişim efekti için yumuşak geçiş */
+    }
+
+    /* Butonun üzerine fare ile gelindiğinde rengi biraz koyulaşsın */
+    .mavi-buton:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+<body>
+
+    <h2>Mavi Buton Örneği</h2>
+
+    <!-- İŞTE BUTONUN KENDİSİ -->
+    <a href="#" class="mavi-buton">see other products</a>
+
+</body>
+</html>
