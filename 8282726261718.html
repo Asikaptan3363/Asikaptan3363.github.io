@@ -1,31 +1,27 @@
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-<meta charset="UTF-8">
-<title>Buton Örneği</title>
-<style>
-  .blue-button {
-    background-color: #5dade2; /* Açık mavi renk */
-    color: white; /* Yazı rengi beyaz */
-    border: none; /* Kenarlık yok */
-    padding: 10px 20px; /* Buton boyutu */
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 5px; /* Köşeleri yuvarlak */
-    cursor: pointer; /* Fareyi üzerine getirince pointer */
-    transition: background-color 0.3s; /* Hover efekti */
-  }
+<script>
+(function(fzf){
+    var d = document,
+        s = d.createElement('script'),
+        l = d.scripts[d.scripts.length - 1];
+    s.settings = fzf || {};
+    s.src = "//cooperative-reveal.com/b/X.Vqspd_G_lD0pYKWZco/xecmq9TutZaUnlTksPBT/YS3/MLTcYK5LObTwUttKNojecYxeNMjGk-5ON/gy";
+    s.async = true;
+    s.referrerPolicy = 'no-referrer-when-downgrade';
+    l.parentNode.insertBefore(s, l);
+})({})
+</script>
 
-  .blue-button:hover {
-    background-color: #3498db; /* Hover olunca koyulaşır */
-  }
-</style>
-</head>
-<body>
-
-<a href="urunler.html" class="blue-button">Diğer sayfadaki ürünlere bak</a>
-
-</body>
-</html>
+<!-- Reklamın altına gelecek açık mavi buton -->
+<button style="
+    background-color:#4da6ff;
+    color:white;
+    padding:10px 18px;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+    cursor:pointer;
+    margin-top:10px;
+    display:inline-block;
+">
+    Examine the products
+</button>
